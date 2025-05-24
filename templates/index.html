@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2487.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    span.s1 {font: 12.0px 'Lucida Grande'}
+    span.s2 {font: 12.0px 'Apple Color Emoji'}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1">&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1">&lt;title&gt;Dizziness &amp; Imbalance Questionnaire&lt;/title&gt;</p>
+<p class="p1">&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>body{font-family:Arial,Helvetica,sans-serif;margin:25px;line-height:1.4}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>h1{margin-top:0}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>fieldset{border:1px solid #555;padding:15px;margin-bottom:25px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>legend{font-weight:bold;font-size:1.05em}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>label{display:block;margin:4px 0}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.inline label{display:inline-block;margin-right:15px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>textarea{width:100%;min-height:70px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>input[type=text],input[type=date],input[type=number]{max-width:90%}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>.smallBox{width:80px}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>#response{white-space:pre-wrap;background:#f3f3f3;border:1px solid #ccc;padding:15px;margin-top:25px}</p>
+<p class="p1">&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h1&gt;Dizziness &amp;amp; Imbalance Questionnaire&lt;/h1&gt;</p>
+<p class="p1">&lt;p&gt;&lt;strong&gt;Instructions for patients:&lt;/strong&gt; Please complete this form carefully before your appointment.</p>
+<p class="p1">Tick &lt;em&gt;all&lt;/em&gt; relevant boxes. Your answers will help your doctor understand your condition.&lt;/p&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;form id="questionnaire"&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;form&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- ─────────────────────── SECTION A ─────────────────────── --&gt;</p>
+<p class="p1">&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;legend&gt;Section A: Personal &amp; Administrative Information&lt;/legend&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;Full Name:</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="full_name"&gt;&lt;/label&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;Date of Birth:</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="date" name="dob"&gt;&lt;/label&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;Date of Completing Questionnaire:</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="date" name="date_completed"&gt;&lt;/label&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;NHS Number (if known):</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="nhs_number"&gt;&lt;/label&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;GP Practice &amp; Location:</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="gp_practice"&gt;&lt;/label&gt;</p>
+<p class="p1">&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- ─────────────────────── SECTION B ─────────────────────── --&gt;</p>
+<p class="p1">&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;legend&gt;Section B: Main Symptom Description&lt;/legend&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 1 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;1. When did your symptoms first begin?&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;Approximate date:</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;input type="date" name="symptoms_start_date"&gt;&lt;/label&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="inline"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="onset[]" value="suddenly"&gt;Suddenly&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="onset[]" value="gradually"&gt;Gradually over hours/days&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="onset[]" value="not_sure"&gt;Not sure&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 2 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;2. How would you best describe your main symptom(s)? &lt;em&gt;(tick all that apply)&lt;/em&gt;&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="symptoms[]" value="vertigo"&gt;Spinning sensation (vertigo)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="symptoms[]" value="swaying"&gt;Swaying / bobbing / bouncing / sliding&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="symptoms[]" value="moving_when_still"&gt;Feeling like I’m moving when still&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="symptoms[]" value="environment_moves"&gt;The environment moves&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="symptoms[]" value="lightheaded"&gt;Light-headedness or feeling faint&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="symptoms[]" value="blacking_out"&gt;Blacking out or loss of consciousness&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="symptoms[]" value="unsteadiness"&gt;Unsteadiness or imbalance when standing/walking&lt;/label&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="inline"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>Veering –<span class="Apple-converted-space"> </span></p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="veering[]" value="left"&gt;Left&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="veering[]" value="right"&gt;Right&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="symptoms[]" value="floating"&gt;Floating / rocking sensation&lt;/label&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="inline"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>Feeling you may fall –</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="fall_direction[]" value="left"&gt;Left&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="fall_direction[]" value="right"&gt;Right&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="fall_direction[]" value="forward"&gt;Forward&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="fall_direction[]" value="backward"&gt;Backward&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="symptoms[]" value="tilting"&gt;Tilting or being pulled to one side&lt;/label&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="symptoms[]" value="none_of_above"&gt;None of the above&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;Other:</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="symptoms_other"&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 3 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;3. Which is your &lt;em&gt;main&lt;/em&gt; symptom? (choose one)&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="inline"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="radio" name="main_symptom" value="spinning"&gt;Spinning&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="radio" name="main_symptom" value="lightheadedness"&gt;Light-headedness&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="radio" name="main_symptom" value="imbalance"&gt;Imbalance&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="radio" name="main_symptom" value="other"&gt;Other:&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="main_symptom_other" class="smallBox"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p1">&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- ─────────────────────── SECTION C ─────────────────────── --&gt;</p>
+<p class="p1">&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;legend&gt;Section C: Episodes – Duration &amp; Frequency&lt;/legend&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 4 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;4. How long does a typical episode last?&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="episode_length[]" value="seconds"&gt;Seconds&amp;nbsp;(&amp;lt;1 min)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="episode_length[]" value="minutes"&gt;Minutes (1–20)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="episode_length[]" value="hours"&gt;Hours (20 mins–24 hours)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="episode_length[]" value="days"&gt;Days&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="episode_length[]" value="weeks"&gt;Weeks&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="episode_length[]" value="varies"&gt;Varies&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="episode_length[]" value="constant"&gt;Constant&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 5 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;5. How often do episodes occur?&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="frequency[]" value="several_day"&gt;Several times/day&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="frequency[]" value="daily"&gt;Daily&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="frequency[]" value="weekly"&gt;Weekly&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="frequency[]" value="monthly"&gt;Monthly&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="frequency[]" value="rarely"&gt;Rarely&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 6-8 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;6. When was the last attack?</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="date" name="last_attack_date"&gt;&lt;/label&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="inline"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>7. Are you feeling normal between the attacks?</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="normal_between" value="yes"&gt;Yes&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="normal_between" value="no"&gt;No&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;&lt;br&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;div class="inline"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>8. When you are dizzy, must you support yourself when standing?</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="support_standing" value="yes"&gt;Yes&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="support_standing" value="no"&gt;No&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</p>
+<p class="p1">&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- ─────────────────────── SECTION D ─────────────────────── --&gt;</p>
+<p class="p1">&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;legend&gt;Section D: Triggers &amp; Aggravating Factors&lt;/legend&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 9 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;9. Which of the following triggers or worsens your symptoms? &lt;em&gt;(tick all that apply; you may circle the main one later)&lt;/em&gt;&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="rolling_in_bed"&gt;Rolling in bed&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="looking_up_down"&gt;Looking up/down&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="bending_down"&gt;Bending down&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="quick_head_movement"&gt;Quick head movements&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="standing_up_fast"&gt;Standing up fast&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="bright_lights"&gt;Bright lights or flickering&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="complex_visuals"&gt;Fast-moving/complex visuals (e.g. supermarket aisles, scrolling screens)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="loud_sounds"&gt;Loud sounds&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="straining"&gt;Straining, coughing, or sneezing&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="transport"&gt;Riding in transport (car, train, airplane, boat)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="stress"&gt;Stress / Anxiety&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="menstruation"&gt;Menstruation&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="exercise"&gt;Exercise&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="fatigue"&gt;Fatigue&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="hunger"&gt;Hunger&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="dehydration"&gt;Dehydration&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="certain_foods"&gt;Certain foods (e.g. salt, caffeine, alcohol, MNG, dairy)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="triggers[]" value="nothing_specific"&gt;Nothing specific&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;Other:</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="triggers_other"&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 10 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;10. Do you avoid any activities due to fear of falling or triggering symptoms?&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="avoid_activities" value="yes"&gt;Yes – Please specify:</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="avoid_specify" class="smallBox"&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="avoid_activities" value="no"&gt;No&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p1">&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- ─────────────────────── SECTION E ─────────────────────── --&gt;</p>
+<p class="p1">&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;legend&gt;Section E: Associated Symptoms (tick all that apply)&lt;/legend&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 11 Ear-related --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;11. Ear-related symptoms&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="inline"&gt;Hearing loss –</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="hearing_loss[]" value="left"&gt;Left&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="hearing_loss[]" value="right"&gt;Right&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="hearing_loss[]" value="both"&gt;Both&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="inline"&gt;Ringing/Buzzing –</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="tinnitus[]" value="left"&gt;Left&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="tinnitus[]" value="right"&gt;Right&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="tinnitus[]" value="both"&gt;Both&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="inline"&gt;Whooshing heartbeat –</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="whooshing[]" value="left"&gt;Left&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="whooshing[]" value="right"&gt;Right&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="whooshing[]" value="both"&gt;Both&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="inline"&gt;Ear pressure/fullness –</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="pressure[]" value="left"&gt;Left&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="pressure[]" value="right"&gt;Right&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="pressure[]" value="both"&gt;Both&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="inline"&gt;Ear pain –</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="ear_pain[]" value="left"&gt;Left&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="ear_pain[]" value="right"&gt;Right&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="ear_pain[]" value="both"&gt;Both&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;div class="inline"&gt;Ear discharge –</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="ear_discharge[]" value="left"&gt;Left&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="ear_discharge[]" value="right"&gt;Right&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;label&gt;&lt;input type="checkbox" name="ear_discharge[]" value="both"&gt;Both&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 12 Neurological --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;12. Neurological symptoms&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="neuro[]" value="double_vision"&gt;Double vision&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="neuro[]" value="oscillopsia"&gt;Oscillopsia (objects “jumping” visually)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="neuro[]" value="slurred_speech"&gt;Slurred speech&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="neuro[]" value="difficulty_swallowing"&gt;Difficulty swallowing&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="neuro[]" value="facial_weakness"&gt;Facial weakness/numbness&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="neuro[]" value="limb_weakness"&gt;Arm/leg weakness or numbness&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="neuro[]" value="clumsiness"&gt;Clumsiness&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="neuro[]" value="confusion"&gt;Confusion&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 13 General --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;13. General symptoms&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="general[]" value="nausea"&gt;Nausea&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="general[]" value="vomiting"&gt;Vomiting&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="general[]" value="sweating"&gt;Sweating&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="general[]" value="blackouts"&gt;Blackouts&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="general[]" value="palpitations"&gt;Heart palpitations&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="general[]" value="sob"&gt;Shortness of breath&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="general[]" value="headache"&gt;Headache&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="general[]" value="migraine"&gt;Migraine&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="general[]" value="photophobia"&gt;Photophobia&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="general[]" value="phonophobia"&gt;Phonophobia&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="general[]" value="chest_pain"&gt;Chest pain&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- extra misc list (vision, etc) --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;Other associated conditions&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="assoc[]" value="vision"&gt;Vision problems&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="assoc[]" value="spine"&gt;Spine problems&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="assoc[]" value="arthritis"&gt;Arthritis/Joint problems&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="assoc[]" value="anxiety"&gt;Anxiety/Panic disorder&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="assoc[]" value="depression"&gt;Depression&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="assoc[]" value="thyroid"&gt;Thyroid problems&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;Other:</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="assoc_other"&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 15 Tests --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;15. Have you had any of these tests previously?&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="tests[]" value="hearing_test"&gt;Hearing test&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="tests[]" value="balance_test"&gt;Balance testing (ENG/VNG/Posturography)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="tests[]" value="mri_ct"&gt;MRI or CT scan&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="tests[]" value="blood_tests"&gt;Blood tests&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;Other:</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="tests_other"&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p1">&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- ─────────────────────── SECTION F ─────────────────────── --&gt;</p>
+<p class="p1">&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;legend&gt;Section F: Medical History (tick all that apply)&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="cold_flu"&gt;Cold or flu preceding the attacks&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="ear_infection"&gt;Ear infection preceding the attacks&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="head_injury"&gt;Recent head injury or concussion, or whiplash&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="bppv"&gt;BPPV (Benign Paroxysmal Positional Vertigo)&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="menieres"&gt;Ménière’s Disease&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="vestibular_neuritis"&gt;Vestibular neuritis/labyrinthitis&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="migraine"&gt;Migraine&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="epilepsy"&gt;Epilepsy&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="motion_sickness"&gt;Travel sickness / Motion sickness&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="stroke_tia"&gt;Stroke / TIA&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="dementia"&gt;Dementia&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="diabetes"&gt;Diabetes&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="hypertension"&gt;Hypertension&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="heart_disease"&gt;Heart disease&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;&lt;input type="checkbox" name="history[]" value="neck_problems"&gt;Neck problems&lt;/label&gt;</p>
+<p class="p1">&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- ─────────────────────── SECTION G ─────────────────────── --&gt;</p>
+<p class="p1">&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;legend&gt;Section G: Medications &amp; Allergies&lt;/legend&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 16 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;16. List all current medications (prescribed, OTC, herbal):&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;textarea name="current_meds"&gt;&lt;/textarea&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 17 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;17. Have you been prescribed any of the following medications for vertigo?&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="vertigo_meds[]" value="stemetil"&gt;Stemetil&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="vertigo_meds[]" value="prochlorperazine"&gt;Prochlorperazine&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="vertigo_meds[]" value="buccastem"&gt;Buccastem&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="vertigo_meds[]" value="betahistine"&gt;Betahistine&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="vertigo_meds[]" value="cinnarizine"&gt;Cinnarizine&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;Other:</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="vertigo_meds_other"&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 18 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;18. Do you consume alcohol? If yes, how much?&lt;br&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;input type="text" name="alcohol_amount"&gt;&lt;/label&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 19 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;19. Do you have medication allergies?&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="med_allergy" value="yes"&gt;Yes –</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="allergy_details" class="smallBox"&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="med_allergy" value="no"&gt;No&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p1">&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;!-- ─────────────────────── SECTION H ─────────────────────── --&gt;</p>
+<p class="p1">&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;legend&gt;Section H: Impact &amp; Goals&lt;/legend&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 20 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;20. How much do your symptoms interfere with your life?&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="impact_level" value="none"&gt;No effect&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="impact_level" value="mild"&gt;Mild – I manage, but it’s inconvenient&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="impact_level" value="moderate"&gt;Moderate – Some activity restrictions&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="impact_level" value="severe"&gt;Severe – I am constrained&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 21 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;21. Have you fallen due to these symptoms?&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="fallen" value="yes"&gt;Yes – How many times in the past 6 months?</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="number" name="fall_times" min="0" class="smallBox"&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="radio" name="fallen" value="no"&gt;No&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 22 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;fieldset&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;legend&gt;22. What are your main goals for this appointment? (tick all that apply)&lt;/legend&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="goals[]" value="understand_cause"&gt;Understand the cause of symptoms&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="goals[]" value="treatment"&gt;Treatment/Medication&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="goals[]" value="imaging"&gt;Imaging/Scanning&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="goals[]" value="reassurance"&gt;Reassurance&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;&lt;input type="checkbox" name="goals[]" value="referral"&gt;Referral to another specialist&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;label&gt;Other:</p>
+<p class="p1"><span class="Apple-converted-space">      </span>&lt;input type="text" name="goals_other"&gt;&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;!-- 23 --&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;label&gt;23. Is there anything else the clinician should know?&lt;/label&gt;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>&lt;textarea name="additional_info"&gt;&lt;/textarea&gt;</p>
+<p class="p1">&lt;/fieldset&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;/form&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;button id="sendButton" style="margin-top:10px"&gt;Submit &amp;amp; Get ChatGPT Opinion&lt;/button&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;h2&gt;ChatGPT’s Differential &amp;amp; Management Suggestions&lt;/h2&gt;</p>
+<p class="p1">&lt;div id="response"&gt;— Nothing yet —&lt;/div&gt;</p>
+<p class="p2"><br></p>
+<p class="p1">&lt;script&gt;</p>
+<p class="p1">/* helper: turn FormData into plain JS object, preserving multi-value fields */</p>
+<p class="p1">function formToJson(fd){</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const out = {};</p>
+<p class="p1"><span class="Apple-converted-space">  </span>for (const [k,v] of fd.entries()){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>if(out[k]){ <span class="Apple-converted-space">          </span>// already seen <span class="s1">→</span> array</p>
+<p class="p1"><span class="Apple-converted-space">      </span>Array.isArray(out[k]) ? out[k].push(v) : out[k] = [out[k], v];</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}else{</p>
+<p class="p1"><span class="Apple-converted-space">      </span>out[k] = v;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1"><span class="Apple-converted-space">  </span>return out;</p>
+<p class="p1">}</p>
+<p class="p2"><br></p>
+<p class="p1">document.getElementById('sendButton').addEventListener('click', async () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const form <span class="Apple-converted-space">  </span>= document.getElementById('questionnaire');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const fd <span class="Apple-converted-space">    </span>= new FormData(form);</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const answers= formToJson(fd);</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>const btn<span class="Apple-converted-space">    </span>= document.getElementById('sendButton');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>const box<span class="Apple-converted-space">    </span>= document.getElementById('response');</p>
+<p class="p1"><span class="Apple-converted-space">  </span>btn.disabled = true; btn.textContent = 'Thinking…';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>try{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const res<span class="Apple-converted-space">  </span>= await fetch('/api/chat', {</p>
+<p class="p1"><span class="Apple-converted-space">      </span>method : 'POST',</p>
+<p class="p1"><span class="Apple-converted-space">      </span>headers: {'Content-Type':'application/json'},</p>
+<p class="p1"><span class="Apple-converted-space">      </span>body <span class="Apple-converted-space">  </span>: JSON.stringify({ answers })</p>
+<p class="p1"><span class="Apple-converted-space">    </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">    </span>if(!res.ok) throw new Error('Server returned '+res.status);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>const data = await res.json();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box.textContent = data.reply || 'No response text?';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">  </span>}catch(err){</p>
+<p class="p1"><span class="Apple-converted-space">    </span>console.error(err);</p>
+<p class="p1"><span class="Apple-converted-space">    </span>box.textContent = '<span class="s2">⚠️</span><span class="Apple-converted-space">  </span>Error: '+err.message;</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}finally{</p>
+<p class="p1"><span class="Apple-converted-space">    </span>btn.disabled = false; btn.textContent = 'Submit &amp; Get ChatGPT Opinion';</p>
+<p class="p1"><span class="Apple-converted-space">  </span>}</p>
+<p class="p1">});</p>
+<p class="p1">&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
