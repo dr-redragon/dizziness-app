@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dizziness Questionnaire</title>
+</head>
+<body>
+    <h1>Dizziness & Imbalance Questionnaire</h1>
+    <form id="dizzinessForm">
+        Full Name: <input type="text" name="fullName"><br>
+        DOB: <input type="date" name="dob"><br>
+        Symptom Description:<br>
+        <textarea name="symptomDescription"></textarea><br>
+        Duration: <input name="episodeDuration"><br>
+        Frequency: <input name="episodeFrequency"><br>
+        Triggers:<br>
+        <textarea name="triggers"></textarea><br>
+        Associated Symptoms:<br>
+        <textarea name="associatedSymptoms"></textarea><br>
+        Medical History:<br>
+        <textarea name="medicalHistory"></textarea><br>
+        Medications:<br>
+        <textarea name="medications"></textarea><br>
+        Impact:<br>
+        <select name="impact">
+            <option>No effect</option>
+            <option>Mild</option>
+            <option>Moderate</option>
+            <option>Severe</option>
+        </select><br>
+        Goals:<br>
+        <textarea name="appointmentGoals"></textarea><br>
+        <button type="button" onclick="submitForm()">Submit</button>
+    </form>
+
+    <h2>Response</h2>
+    <pre id="responseBox">Waiting...</pre>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
